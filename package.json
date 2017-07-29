@@ -14,7 +14,8 @@
   },
   "scripts": {
     "start": "node ./examples/server.js",
-    "test": "gulp test"
+    "test": "gulp test",
+    "test:eslint": "./node_modules/.bin/eslint --config .eslintrc **/*.js"
   },
   "repository": {
     "type": "git",
@@ -23,6 +24,13 @@
   "dependencies": {
     "alac2pcm": "^1.1.0",
     "debug": "^2.1.0",
+    "eslint": "^4.3.0",
+    "eslint-config-airbnb": "^15.1.0",
+    "eslint-config-prettier": "^2.3.0",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-jsx-a11y": "^5.1.1",
+    "eslint-plugin-prettier": "^2.1.2",
+    "eslint-plugin-react": "^7.1.0",
     "forge": "^2.2.0",
     "httplike": "^1.0.2",
     "ipaddr.js": "^1.0.1",
@@ -30,6 +38,8 @@
     "metricstream": "0.0.0",
     "node-forge": "^0.6.16",
     "portastic": "0.0.1",
+    "prettier": "^1.5.3",
+    "prettier-eslint": "^6.4.2",
     "priorityqueuejs": "0.2.0",
     "random-mac": "0.0.4",
     "randomstring": "1.0.3",
