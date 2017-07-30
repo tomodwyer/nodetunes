@@ -1,3 +1,1 @@
-'use strict';
-
-module.exports = require(__dirname + '/lib/server');
+module.exports = require("./lib/server");

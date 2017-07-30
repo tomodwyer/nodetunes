@@ -1,15 +1,8 @@
-var gulp = require('gulp');
-var mocha = require('gulp-mocha');
-var jscs = require('gulp-jscs');
+const gulp = require("gulp");
+const mocha = require("gulp-mocha");
 
-gulp.task('test', function() {
-  gulp.src('./test/*.js')
-    .pipe(mocha({ reporter: 'spec' }));
+gulp.task("test", () => {
+  gulp.src("./test/*.js").pipe(mocha({ reporter: "spec" }));
 });
 
-gulp.task('lint', function() {
-  gulp.src('./**/*.js')
-    .pipe(jscs());
-});
-
-gulp.task('default', ['test', 'lint']);
+gulp.task("default", ["test"]);
