@@ -1,16 +1,14 @@
-'use strict';
+const AirTunesServer = require("../index");
+const Speaker = require("speaker");
 
-var AirTunesServer = require('../index');
-var Speaker = require('speaker');
-
-var speaker = new Speaker({
+const speaker = new Speaker({
   channels: 2,
   bitDepth: 16,
-  sampleRate: 44100,
+  sampleRate: 44100
 });
-var server = new AirTunesServer({ serverName: 'NodeTunes Speaker' });
+const server = new AirTunesServer({ serverName: "NodeTunes Speaker" });
 
-server.on('clientConnected', function(stream) {
+server.on("clientConnected", stream => {
   stream.pipe(speaker);
 });
 
