@@ -3,7 +3,8 @@
   "version": "1.0.1",
   "author": "Stephen Wan <stephen@stephenwan.net>",
   "description": "AirTunes v2 Server Implementation",
-  "contributors": [{
+  "contributors": [
+    {
       "name": "Stephen Wan",
       "email": "stephen@stephenwan.net"
     },
@@ -14,7 +15,9 @@
   "scripts": {
     "start": "node ./examples/server.js",
     "test": "gulp test",
-    "test:eslint": "eslint --config .eslintrc.json ./examples/*.js ./lib/**/*.js ./lib/*.js *.js"
+    "test:eslint": "eslint --config .eslintrc.json ./examples/*.js ./lib/**/*.js ./lib/*.js *.js",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "repository": {
     "type": "git",
@@ -43,7 +46,9 @@
     "random-mac": "0.0.4",
     "randomstring": "1.1.5",
     "readable-stream": "^2.0.2",
-    "speaker": "0.3.0"
+    "speaker": "0.3.0",
+    "snyk": "^1.53.0"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "snyk": true
 }
