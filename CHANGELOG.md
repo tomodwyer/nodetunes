@@ -1,5 +1,10 @@
 # Changelog
 
+## 1.1.0
+
+- Update to the latest dependencies
+
+
 ## 1.0.0
 
 - Fix crypto crash
