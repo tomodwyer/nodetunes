@@ -3,8 +3,7 @@
   "version": "1.0.1",
   "author": "Stephen Wan <stephen@stephenwan.net>",
   "description": "AirTunes v2 Server Implementation",
-  "contributors": [
-    {
+  "contributors": [{
       "name": "Stephen Wan",
       "email": "stephen@stephenwan.net"
     },
@@ -12,9 +11,6 @@
       "name": "Tom O'Dwyer"
     }
   ],
-  "engines": {
-    "node": "8.2.1"
-  },
   "scripts": {
     "start": "node ./examples/server.js",
     "test": "gulp test",
