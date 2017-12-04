@@ -1,10 +1,9 @@
 {
   "name": "nodetunes",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "author": "Stephen Wan <stephen@stephenwan.net>",
   "description": "AirTunes v2 Server Implementation",
-  "contributors": [
-    {
+  "contributors": [{
       "name": "Stephen Wan",
       "email": "stephen@stephenwan.net"
     },
