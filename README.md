@@ -23,7 +23,7 @@ $ yarn start
 ## Tests
 
 ```shell
-# Run the moch tests
+# Run the mocha tests
 $ yarn test
 # Check with ESLint
 $ yarn lint

@@ -9,22 +9,27 @@
   },
   "author": "Stephen Wan <stephen@stephenwan.net>",
   "contributors": [
-    { "name": "Stephen Wan", "email": "stephen@stephenwan.net" },
-    { "name": "Tom O'Dwyer", "email": "git@tomodwyer.com" }
+    {
+      "name": "Stephen Wan",
+      "email": "stephen@stephenwan.net"
+    },
+    {
+      "name": "Tom O'Dwyer",
+      "email": "git@tomodwyer.com"
+    }
   ],
   "scripts": {
     "lint": "eslint './*.js' './**/*.js'",
     "start": "node ./examples/server.js",
-    "test": "gulp test"
+    "test": "mocha"
   },
   "dependencies": {
     "alac2pcm": "^1.1.0",
     "debug": "^2.1.0",
-    "gulp": "~3.9.1",
-    "gulp-mocha": "~4.3.1",
     "httplike": "^1.0.2",
     "ipaddr.js": "^1.0.1",
     "mdns": "^2.2.10",
+    "mocha": "^5.1.1",
     "node-forge": "^0.7.1",
     "portastic": "0.0.1",
     "priorityqueuejs": "1.0.0",
