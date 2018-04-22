@@ -13,9 +13,9 @@
     { "name": "Tom O'Dwyer", "email": "git@tomodwyer.com" }
   ],
   "scripts": {
+    "lint": "eslint './*.js' './**/*.js'",
     "start": "node ./examples/server.js",
-    "test": "gulp test",
-    "test:eslint": "eslint --config .eslintrc.json ./examples/*.js ./lib/**/*.js ./lib/*.js *.js"
+    "test": "gulp test"
   },
   "dependencies": {
     "alac2pcm": "^1.1.0",
@@ -43,5 +43,23 @@
     "eslint-plugin-react": "^7.5.1",
     "prettier": "^1.8.2",
     "prettier-eslint": "^8.2.3"
+  },
+  "eslintConfig": {
+    "extends": [
+      "airbnb",
+      "prettier"
+    ],
+    "plugins": [
+      "prettier"
+    ],
+    "rules": {
+      "no-underscore-dangle": "off",
+      "prettier/prettier": "error"
+    },
+    "env": {
+      "es6": true,
+      "node": true,
+      "mocha": true
+    }
   }
 }

@@ -25,8 +25,8 @@ $ yarn start
 ```shell
 # Run the moch tests
 $ yarn test
-# Use the linter
-$ yarn test:eslint
+# Check with ESLint
+$ yarn lint
 ```
 
 See `examples/server.js` for example usage.
