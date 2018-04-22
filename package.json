@@ -25,29 +25,29 @@
   },
   "dependencies": {
     "alac2pcm": "^1.1.0",
-    "debug": "^2.1.0",
+    "debug": "^3.1.0",
     "httplike": "^1.0.2",
-    "ipaddr.js": "^1.0.1",
-    "mdns": "^2.2.10",
+    "ipaddr.js": "^1.7.0",
+    "mdns": "^2.3.4",
     "mocha": "^5.1.1",
-    "node-forge": "^0.7.1",
-    "portastic": "0.0.1",
+    "node-forge": "^0.7.5",
+    "portastic": "1.0.1",
     "priorityqueuejs": "1.0.0",
     "random-mac": "0.0.4",
     "randomstring": "1.1.5",
-    "readable-stream": "^2.0.2",
-    "speaker": "0.3.0"
+    "readable-stream": "^2.3.6",
+    "speaker": "0.4.1"
   },
   "devDependencies": {
-    "eslint": "^4.12.1",
+    "eslint": "^4.19.1",
     "eslint-config-airbnb": "^16.1.0",
     "eslint-config-prettier": "^2.9.0",
-    "eslint-plugin-import": "^2.8.0",
-    "eslint-plugin-jsx-a11y": "^6.0.2",
-    "eslint-plugin-prettier": "^2.3.1",
-    "eslint-plugin-react": "^7.5.1",
-    "prettier": "^1.8.2",
-    "prettier-eslint": "^8.2.3"
+    "eslint-plugin-import": "^2.11.0",
+    "eslint-plugin-jsx-a11y": "^6.0.3",
+    "eslint-plugin-prettier": "^2.6.0",
+    "eslint-plugin-react": "^7.7.0",
+    "prettier": "^1.12.1",
+    "prettier-eslint": "^8.8.1"
   },
   "eslintConfig": {
     "extends": [
