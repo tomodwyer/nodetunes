@@ -4,24 +4,29 @@ nodetunes is an implementation of the Apple AirTunes v2 (audio AirPlay) protocol
 
 This is a full fork clone of the dead [stephen/nodetunes](https://github.com/stephen/nodetunes) repo.
 
+## Requirements
+
+* [Node.js](https://nodejs.org/en/)
+* [Yarn](https://yarnpkg.com/en/)
+
 ## Clone, install and run
 
 ```shell
 # Clone the repo
 $ git clone https://github.com/tomodwyer/nodetunes.git
 # Install the dependencies
-$ npm install
+$ yarn
 # Start the example server
-$ npm run start
+$ yarn start
 ```
 
 ## Tests
 
 ```shell
-# Run the moch tests
-$ npm run test
-# Use the linter
-$ npm run test:eslint
+# Run the mocha tests
+$ yarn test
+# Check with ESLint
+$ yarn lint
 ```
 
-See ```examples/server.js``` for example usage.
+See `examples/server.js` for example usage.
